@@ -123,5 +123,13 @@
       }
     }
   },
-  "defaultProject": "ng6-di"
+  "defaultProject": "ng6-di",
+  "schematics": {
+    "@schematics/angular": {
+      "component": {
+        "inlineStyle": true,
+        "inlineTemplate": true
+      }
+    }
+  }
 }
